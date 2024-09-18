@@ -1,0 +1,7 @@
+coloredlogs
+requests
+extended-json-schema-validator >= 0.15.3
+rfc3339-validator
+python-magic
+dataclasses;python_version == '3.6'
+oeb_scientific_admin_agents @ git+https://gitlab.bsc.es/inb/iechor/openebench/oeb-sci-admin-agents.git@v0.8.10
