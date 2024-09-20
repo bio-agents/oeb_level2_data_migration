@@ -1,28 +1,3 @@
-headers: >
-  # Automatically generated file from a JSON schema
-# Used to correctly format the generated file
-#callbacks:
-#  - - black
-#  - - isort
-#pre_commit:
-#  enabled: true
-#  hooks_skip:
-#    - jsonschema-gentypes
-#  arguments:
-#    - --color=never
-generate:
-  - # JSON schema file path
-    source: oeb_level2/schemas/submission_form_schema.json
-    # Python file path
-    destination: oeb_level2/schemas/typed_schemas/submission_form_schema.py
-    # The name of the root element
-    root_name: ConfigParams
-    # Argument passed to the API
-    api_arguments:
-      additional_properties: Only explicit
-    # Rename an element
-    name_mapping: {}
-    # The minimum Python version that the code should support. By default the
-    # currently executing Python version is chosen. Note that the output
-    # may require typing_extensions to be installed.
-    python_version: '3.8'
+version https://git-lfs.github.com/spec/v1
+oid sha256:ebad36791d2513707a81830d4e6bddf16ea58572c7abd08e5849e91ed4e189f3
+size 883
